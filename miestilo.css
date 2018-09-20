@@ -1,0 +1,356 @@
+.subir{
+    padding-top: 0;
+    align-content: center;
+}
+.estiloinput{
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+    text-align: center;
+}
+.decoinfo2{
+    color: rgb(4, 255, 150);
+    font-size: 25px;
+    
+}
+.decoinfo{
+    color: chartreuse;
+    font-size: 20px;
+    
+}
+.textogeneral{
+    text-align:center;
+    position:relative;
+    font-family: Arial;
+    color: rgb(5, 80, 57);     
+    top:10px;
+    font-size: 25px;
+}
+.box h3{
+    text-align:center;
+    position:relative;
+    font-family: Arial;
+    color: #fff;
+     
+    top:10px;
+    }
+    .textinfo{
+        text-align:left;
+        position:relative;
+        font-family: Arial;
+        color: #fff;
+        box-shadow: 0 4px 4px rgb(253, 253, 253);
+        top:10px;
+        padding-left:10px ;
+        }
+    .box {
+    width:70%;
+    height:200px;
+    background:#2187a2;
+    margin:40px auto;
+    }
+     
+    /*==================================================
+    * Efecto 2
+    * ===============================================*/
+    .effect2
+    {
+    position: relative;
+    }
+    .effect2:before, .effect2:after
+    {
+    
+    position: absolute;
+    content: "";
+    bottom: 15px;
+    left: 10px;
+    width: 50%;
+    top: 80%;
+    max-width:300px;
+    background: #777;
+    -webkit-box-shadow: 0 15px 10px #777;
+    -moz-box-shadow: 0 15px 10px #777;
+    box-shadow: 0 15px 10px #777;
+    -webkit-transform: rotate(-3deg);
+    -moz-transform: rotate(-3deg);
+    -o-transform: rotate(-3deg);
+    -ms-transform: rotate(-3deg);
+    transform: rotate(-3deg);
+    }
+    .effect2:after
+    {
+    -webkit-transform: rotate(3deg);
+    -moz-transform: rotate(3deg);
+    -o-transform: rotate(3deg);
+    -ms-transform: rotate(3deg);
+    transform: rotate(3deg);
+    right: 10px;
+    left: auto;
+    }
+    /*==================================================
+* Efecto 3
+* ===============================================*/
+.effect3
+{
+position: relative;
+}
+.effect3:before
+{
+z-index: -1;
+position: absolute;
+content: "";
+bottom: 15px;
+left: 10px;
+width: 50%;
+top: 80%;
+max-width:300px;
+background: #777;
+-webkit-box-shadow: 0 15px 10px #777;
+-moz-box-shadow: 0 15px 10px #777;
+box-shadow: 0 15px 10px #777;
+-webkit-transform: rotate(-3deg);
+-moz-transform: rotate(-3deg);
+-o-transform: rotate(-3deg);
+-ms-transform: rotate(-3deg);
+transform: rotate(-3deg);
+}
+/*==================================================
+* Efecto 4
+* ===============================================*/
+.effect4
+{
+position: relative;
+}
+.effect4:after
+{
+z-index: -1;
+position: absolute;
+content: "";
+bottom: 15px;
+right: 10px;
+left: auto;
+width: 50%;
+top: 80%;
+max-width:300px;
+background: #777;
+-webkit-box-shadow: 0 15px 10px #777;
+-moz-box-shadow: 0 15px 10px #777;
+box-shadow: 0 15px 10px #777;
+-webkit-transform: rotate(3deg);
+-moz-transform: rotate(3deg);
+-o-transform: rotate(3deg);
+-ms-transform: rotate(3deg);
+transform: rotate(3deg);
+}
+   
+   
+   .centerr{
+        width: 8em;
+     
+       justify-content: center;
+   } 
+    .decoracionimagen{
+
+        width: 7rem;
+    }
+    .textoTitulos{
+
+        color: #00B4F1;
+    }
+
+    /*Boton Central inciar juego*/
+    .botoncentraliniciarjuego{
+        width: 10rem;
+        height: 10rem;
+       
+    }
+
+    *, *:before, *:after{
+    box-sizing:border-box;
+    }
+    body{
+    font-family: 'Lato', sans-serif;
+    }
+    div.foo{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    }
+    .letter{
+    display: inline-block;
+    font-weight: 900;
+    font-size: 5em;
+    margin: 0.2em;
+    position: relative;
+    color: #00B4F1;
+    transform-style: preserve-3d;
+    perspective: 400;
+    z-index: 1;
+    }
+    .letter:before, .letter:after{
+    position:absolute;
+    content: attr(data-letter);
+    transform-origin: top left;
+    top:0;
+    left:0;
+    }
+    .letter, .letter:before, .letter:after{
+    transition: all 0.3s ease-in-out;
+    }
+    .letter:before{
+    color: #fff;
+    text-shadow: 
+        -1px 0px 1px rgba(255,255,255,.8),
+        1px 0px 1px rgba(0,0,0,.8);
+    z-index: 3;
+    transform:
+        rotateX(0deg)
+        rotateY(-15deg)
+        rotateZ(0deg);
+    }
+    .letter:after{
+    color: rgba(0,0,0,.11);
+    z-index:2;
+    transform:
+        scale(1.08,1)
+        rotateX(0deg)
+        rotateY(0deg)
+        rotateZ(0deg)
+        skew(0deg,1deg);
+    }
+    .letter:hover:before{
+    color: #fafafa;
+    transform:
+        rotateX(0deg)
+        rotateY(-40deg)
+        rotateZ(0deg);
+    }
+    .letter:hover:after{
+    transform:
+        scale(1.08,1)
+        rotateX(0deg)
+        rotateY(40deg)
+        rotateZ(0deg)
+        skew(0deg,22deg);
+    }
+
+    body{
+    background: rgba(241,231,103,1);
+    background: -moz-linear-gradient(left, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(241,231,103,1)), color-stop(100%, rgba(254,182,69,1)));
+    background: -webkit-linear-gradient(left, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+    background: -o-linear-gradient(left, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+    background: -ms-linear-gradient(left, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+    background: linear-gradient(to right, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1e767', endColorstr='#feb645', GradientType=1 );
+    }
+
+    .acertado {color:rgb(52, 237, 104);
+        font-weight:bold;
+        font-size: 25px;
+   
+    }
+
+    .fin      {
+        font-weight:bold;
+        font-size: 27px;
+    }
+
+    .error    {color:#ccc;
+      }
+
+    .botoniniciarjuego{
+        text-decoration: none;
+        padding: 10px;
+        font-weight: 600;
+        font-size: 30px;
+        color: #ffffff;
+        background-color: #1883ba;
+        border-radius: 6px;
+        border: 2px solid #0016b0;
+    }
+
+    .botoniniciarjuego:hover{
+        color: #1883ba;
+        background-color: #ffff
+    }
+
+
+    .divconteinercenter {
+        padding-bottom: 0;
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 0;
+        margin-top: 0;
+        
+        
+        /* IMPORTANTE */
+        text-align: center;
+
+    }
+
+
+    .inputconteinercenter {
+        
+        margin: 1rem;
+        padding: 2rem;
+        
+        /* IMPORTANTE */
+        text-align: center;
+
+    }
+
+    .textoconteinercenter {
+        
+        margin: 1rem;
+        padding: 2rem;
+        
+        /* IMPORTANTE */
+        text-align: center;
+    }
+        
+        
+    /*CSS para el input number - quitar flechas*/
+    input[type=number]::-webkit-outer-spin-button,
+
+    input[type=number]::-webkit-inner-spin-button {
+        
+        -webkit-appearance: none;
+        
+        margin: 0;
+        
+    }
+        
+        
+        
+    input[type=number] {
+        
+        -moz-appearance:textfield;
+        
+    }
+    /*terminal quitar flechas*/
+
+
+    .tuclase {
+        text-align: center; 
+        font-family: 'Segoe UI'; 
+        font-size: 30px; 
+
+        COLOR: rgb(155, 0, 129); 
+        text-shadow: 2px 2px 9px #508AD3;
+    }
+
+    .submitbtn {
+        text-transform: uppercase;
+        background-color: #1f659b;
+        border-radius: 0;
+        font-weight: bold;
+        width: 90px;
+        border: none;
+        height: 30px;
+        color: #fff;
+    }
+
+    .submitbtn:hover {
+        color: #c3e3fc;
+    }

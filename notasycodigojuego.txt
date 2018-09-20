@@ -1,0 +1,5 @@
+
+        <!--Boton Central Iniciar Juego Prueba1-->
+        <div>
+        <a class="botoniniciarjuego" href="#openModal1">Iniciar Juego</a>
+        </div>
